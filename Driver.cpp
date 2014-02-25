@@ -13,9 +13,12 @@
 #include <cmath>
 #include <cctype>
 #include <string>
+#include "Site.h"
 
 using namespace std;
-#include "Site.h"
+
+
+
 int main(){
 	
 	Site test;

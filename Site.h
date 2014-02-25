@@ -19,5 +19,5 @@ class Site {
 		long x;
 		long y;
 		  
-		Site(int id, string name, string status, string remediationStatus, string contaminationType, long x, long y);  // Default constructor
+		Site(int an_id, string a_name, string a_status, string a_remediationStatus, string a_contaminationType, long a_x, long a_y);  // Default constructor
 };

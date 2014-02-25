@@ -8,15 +8,14 @@
 // Last modified on: 2/24/2014
 #include <string>
 using namespace std;
-Site::Site(int id, string name, string status, string remediationStatus, string contaminationType, long x, long y){
+Site::Site(int an_id, string a_name, string a_status, string a_remediationStatus, string a_contaminationType, long a_x, long a_y){
    //constructor
-   this->id = id;
-   this->name = name;
-   this->status = status;
-   this->remediationStatus = remediationStatus;
-   this->contaminationType = contaminationType;
-   this->x = x;
-   this->y = y;
-   
-   return;
+   id = an_id;
+   name = a_name;
+   status = a_status;
+   remediationStatus = a_remediationStatus;
+   contaminationType = a_contaminationType;
+   x = a_x;
+   y = a_y;
+
 }
