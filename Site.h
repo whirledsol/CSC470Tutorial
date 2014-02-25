@@ -6,18 +6,19 @@
 // Description: a header file for a Site object
 // Filename: Site.h
 // Last modified on: 2/24/2014
+#include <string>
 
 class Site {
 	public:
 		void toString() const;
 		double getDistance(long x, long y);
 		int id;
-		string name;
-		string status;
-		string remediationStatus;
-		string contaminationType;
+		std::string name;
+		std::string status;
+		std::string remediationStatus;
+		std::string contaminationType;
 		long x;
 		long y;
 		  
-		Site(int an_id, string a_name, string a_status, string a_remediationStatus, string a_contaminationType, long a_x, long a_y);  // Default constructor
+		Site(int an_id, std::string a_name, std::string a_status, std::string a_remediationStatus, std::string a_contaminationType, long a_x, long a_y);  // Default constructor
 };

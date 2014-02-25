@@ -21,9 +21,7 @@ using namespace std;
 
 int main(){
 	
-	Site test;
-
-	test	= Site(5,"","a","b","c",5,6);
+	Site test = Site(5,"","a","b","c",5,6);
 	cout<<test.status<<endl;
 	return 0;
 }

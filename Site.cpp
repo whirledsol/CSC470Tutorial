@@ -6,6 +6,7 @@
 // Description: class functions for a Site object
 // Filename: Site.cpp
 // Last modified on: 2/24/2014
+#include "Site.h"
 #include <string>
 using namespace std;
 Site::Site(int an_id, string a_name, string a_status, string a_remediationStatus, string a_contaminationType, long a_x, long a_y){
