@@ -10,15 +10,21 @@
 
 class Site {
 	public:
-		void toString() const;
-		double getDistance(long x, long y);
-		int id;
-		std::string name;
-		std::string status;
-		std::string remediationStatus;
-		std::string contaminationType;
-		long x;
-		long y;
-		  
-		Site(int an_id, std::string a_name, std::string a_status, std::string a_remediationStatus, std::string a_contaminationType, long a_x, long a_y);  // Default constructor
-};
+        Site(int an_id, std::string a_name, std::string a_status, std::string a_remediationStatus, std::string a_contaminationType, long a_x, long a_y);  // Default constructor
+        Site();
+        long getX();
+        long getY();
+        std::string getStatus();
+        std::string getName();
+        std::string toString() const;
+        double getDistance(long inputX, long inputY);
+    
+    private:
+        int id;
+        std::string name;
+        std::string status;
+        std::string remediationStatus;
+        std::string contaminationType;
+        long x;
+        long y;
+		};

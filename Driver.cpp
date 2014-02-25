@@ -21,7 +21,8 @@ using namespace std;
 
 int main(){
 	
-	Site test = Site(5,"","a","b","c",5,6);
-	cout<<test.status<<endl;
+	Site test;
+    test = Site(5,"","a","b","c",5,6);
+	cout<<test.toString()<<endl;
 	return 0;
 }
