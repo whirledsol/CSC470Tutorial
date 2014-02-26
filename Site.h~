@@ -19,7 +19,7 @@ class Site {
         std::string getName();
         std::string toString() const;
         double getDistance(long inputX, long inputY);
-	//bool operator== (const Site& other) const;//DELETE TODO
+	//bool operator== (const Site& other) const;//DELETE
     private:
         int id;
         std::string name;
