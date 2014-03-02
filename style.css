@@ -1,17 +1,83 @@
 /* CSC470 Assignment 3 */
 #body{
-/*background-color: #D9EBFF;*/
-background:url(background.png);
+font-family:Helvetica, Arial, Times New Roman;
+width: 100%;
+margin: 0px;
+background:url(assets/background.png);
 background-size:100%;
 background-repeat:repeat-y;
 }
 #site-content{
 	width:80%;
-	height:100
-	color:RED;
 	margin-left:auto;
 	margin-right:auto;
-	background-color: #DED9FF;
 	font-family:Helvetica, Arial, Times New Roman;
 
+}
+.centerize{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+/*FOR MOBILE DISPLAY, OVERWRITE */
+@media print,handheld,(max-width: 600px){
+	#site-content{
+		width:98%;
+		margin-left:auto;
+		margin-right:auto;
+		font-family:Helvetica, Arial, Times New Roman;
+
+	}
+	#body{
+	font-family:Helvetica, Arial, Times New Roman;
+	width: 100%;
+	margin: 0px;
+	background:#FFFFFF;
+	}
+
+}
+
+#h1{
+	font-size:4em;
+	text-align:center;
+}
+#h2{
+	font-style:italic;
+	font-size:1.2em;
+	color: BLACK;
+}
+.steps{
+	font-size:1.2em;
+	font-weight:bold;
+	padding-right:1em;
+}
+a{
+	color:BLACK;
+	/*text-decoration:none;*/
+	
+}
+hr{
+margin-top:3em;
+margin-bottom:2em;
+}
+
+#navbar{
+width:100%;
+text-align:center;
+background-color: #FFF5D9;
+border-top:2px solid #785800;
+border-bottom:2px solid #785800;
+padding-top:0.5em;
+padding-bottom:0.5em;
+font-size:1.2em;
+color: #785800;
+margin: 0 auto;
+}
+
+.leftimage{
+float:right;
+width:50%;
+max-width:13em;
+hight:auto;
 }
